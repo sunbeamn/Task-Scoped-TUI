@@ -51,7 +51,9 @@ taskscope-tui/
 ├── conftest.py           # Sample pytest configuration file
 ├── requirements.txt      # Dependencies (rich)
 └── README.md             # System documentation
-Quickstart & Installation
+```
+
+## Quickstart & Installation
 Prerequisites
 Python: 3.10 or higher
 Operating System: Linux (recommended for full strace kernel tracing) or macOS/Windows (uses fallback runtime inspector)
@@ -62,6 +64,7 @@ git clone https://github.com/sunbeamn/Task-Scoped-TUI.git
 cd taskscope-tui
 
 # Install dependencies
+
 pip install -r requirements.txt
 Usage
 Run any target command under TaskScope-TUI protection:
